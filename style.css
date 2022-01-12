@@ -1,0 +1,184 @@
+/*FLEX--------------------------------------------------------------------*/
+.flexbox-container {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: lightblue;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
+/*CENTER--------------------------------------------------------------------*/
+.flexbox-container-center {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: center; /*default is start, center MAIN AXIS*/
+}
+/*SPACE BETWEEN--------------------------------------------------------------------*/
+.flexbox-container-space-between {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: space-between;
+}
+/*SPACE AROUND--------------------------------------------------------------------*/
+.flexbox-container-space-around {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: space-around;
+}
+/*CROSS AXIS--------------------------------------------------------------------*/
+.flexbox-container-flex-start {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: center;
+    align-items: flex-start; /*default stretch*/
+}
+/*CENTER VERTICAL--------------------------------------------------------------------*/
+.flexbox-container-vertical-center {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    align-items: center; /*default stretch*/
+}
+/*CENTER VERTICAL AND HORIZONTAL--------------------------------------------------------------------*/
+.flexbox-container-cross-center {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: center;
+    align-items: center; /*default stretch*/
+}
+/*WHEN SHRINK, WRAP LIKE BOOTSTRAP--------------------------------------------------------------------*/
+.flexbox-container-wrap {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    justify-content: center;
+    align-items: center; /*default stretch*/
+
+    flex-wrap: wrap;
+    align-content: center; /*where to start wrapping,
+     center, flex-start, flex-end
+     also space-between etc...*/
+}
+/*COLUMN--------------------------------------------------------------------*/
+.flexbox-container-column {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    flex-direction: column;
+}
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+.flexbox-container-column-center {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+
+    flex-direction: column;
+    align-items: center; /*justify-content: center on main, which is COLUMN NOW*/
+}
+/*SHRINKING ITEM--------------------------------------------------------------------*/
+.flexbox-item-no-shrink {
+    min-height: 100px;
+
+    flex-shrink: 0;
+}
+/*GROWING ITEM--------------------------------------------------------------------*/
+.flexbox-item-grow {
+    min-height: 300px;
+
+    flex-grow: 1;
+}
+.flexbox-item-grow-more {
+    min-height: 300px;
+
+    flex-grow: 2;
+}
+/*FLEX-BASIS--------------------------------------------------------------------*/
+.flexbox-item-grow-basis {
+    min-height: 300px;
+
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.flexbox-item-grow-more-basis {
+    min-height: 300px;
+
+    flex-grow: 2;
+    flex-basis: 0;
+}
+/*ALIGN SELF--------------------------------------------------------------------*/
+.flexbox-item-align-1 {
+    min-height: 100px;
+
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: flex-end;
+}
+.flexbox-item-align-2 {
+    min-height: 200px;
+
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: flex-start;
+}
+/*REORDERING--------------------------------------------------------------------*/
+.flexbox-item-order-1 {
+    min-height: 100px;
+
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: flex-end;
+    order: 3;
+}
+.flexbox-item-order-2 {
+    min-height: 200px;
+
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: flex-start;
+    order: 1
+}
+
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/*COLUMN CENTER IN CROSS--------------------------------------------------------------------*/
+/**/

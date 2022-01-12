@@ -1,0 +1,135 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>FLEX</title>    
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h3 style = "text-align:center;">DEFAULT</h3>
+        <div>
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">DISPLAY: FLEX (RESIZING LIKE BOOTSTRAP)</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">CENTER</h3>
+        <div class="flexbox-container-center">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">SPACE BETWEEN</h3>
+        <div class="flexbox-container-space-between">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">SPACE AROUND</h3>
+        <div class="flexbox-container-space-around">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">ALIGN-ITEMS: FLEX-START</h3>
+        <div class="flexbox-container-flex-start">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">ALIGN-ITEMS: CENTER</h3>
+        <div class="flexbox-container-vertical-center">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">VERTICAL AND HORIZONTAL CENTERING</h3>
+        <div class="flexbox-container-cross-center">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">WRAP (TRY RESIZING WINDOW)</h3>
+        <div class="flexbox-container-wrap">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">COLUMN (INVERTED THE CROSS AXIS)</h3>
+        <div class="flexbox-container-column">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">CENTER ON CROSS AXIS COLUMN</h3>
+        <div class="flexbox-container-column-center">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">NO SHRINKING ITEM</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-no-shrink">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">ITEM TAKES EXTRA SPACE</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-2">2</div>
+            <div class="flexbox-item flexbox-item-grow">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">PROPORTIONAL GROW</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-grow">2</div>
+            <div class="flexbox-item flexbox-item-grow">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">UNPROPORTIONAL GROW (TWICE OF <u>EXTRA</u> SPACE)</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-grow">2</div>
+            <div class="flexbox-item flexbox-item-grow-more">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">UNPROPORTIONAL GROW (TWICE OF <u>OTHERS</u>)</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">1</div>
+            <div class="flexbox-item flexbox-item-grow-basis">2</div>
+            <div class="flexbox-item flexbox-item-grow-more-basis">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">ALIGN-SELF ITEMS</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-align-1">1</div>
+            <div class="flexbox-item flexbox-item-align-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+
+        <h3 style = "text-align:center;">ORDERING</h3>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-order-1">1</div>
+            <div class="flexbox-item flexbox-item-order-2">2</div>
+            <div class="flexbox-item flexbox-item-3">3</div>
+        </div>
+    </body>
+</html>
