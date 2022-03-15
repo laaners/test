@@ -1,8 +1,22 @@
 [
 	{
-		"id": 0, 
-		"name": "Kozmo Farmgirl",
-		"user": "All",
+		"id": 72302403,
+		"name": "Swords of Revealing Light",
 		"banner": "Leo"
+	},
+	{
+		"id": 55144522,
+		"name": "Pot of Greed",
+		"banner": "Sandro"
+	},
+	{
+		"id": 12580477,
+		"name" "Raigeki",
+		"banner": "Siwei"
+	},
+	{
+		"id": 83764719,
+		"name": "Monster Reborn",
+		"banner": "Ale"
 	}
 ]
