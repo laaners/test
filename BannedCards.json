@@ -48,5 +48,25 @@
 		"id": 56120475,
 		"name": "Sakuretsu Armor",
 		"banner": "Siwei"
-	}
+	},
+	{
+		"id": 19613556,
+		"name": "Heavy Storm",
+		"banner": "Siwei"
+	},
+	{
+		"id": 80604091
+		"name": "Ultimate Offering",
+		"banner": "Sandro"		
+	},
+	{
+		"id": 3136426,
+		"name": "Level Limit - Area B",
+		"banner": "Leo"
+	},
+	{
+		"id": 78010363
+		"name": "Witch of the Black Forest",
+		"banner": "Ale"
+	}	
 ]
