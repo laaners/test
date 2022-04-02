@@ -83,5 +83,25 @@
 		"id": 45986603,
 		"name": "Snatch Steal",
 		"banner": "Leo"
+	},
+	{
+		"id": 82732705,
+		"name": "Skill Drain",
+		"banner": "Siwei
+	},
+	{
+		"id": 81674782,
+		"name": "Dimensional Fissure",
+		"banner": "Sandro"
+	},
+	{
+		"id": 30241314,
+		"name": "Macro Cosmos",
+		"banner": "Ale"
+	},
+	{
+		"id": 23557835,
+		"name": "Dimension Fusion",
+		"banner": "Leo"
 	}
 ]
