@@ -153,5 +153,25 @@
 		"id": 47355498,
 		"name": "Necrovalley",
 		"banner": "Siwei"
+	},
+	{
+		"id": 33198837,
+		"name": "Naturia Beast",
+		"banner": "Leo"
+	},
+	{
+		"id": 72892473,
+		"name": "Card Destruction",
+		"banner": "Ale"
+	},
+	{
+		"id": 51452091,
+		"name": "Royal Decree",
+		"banner": "Sandro"
+	},
+	{
+		"id": 70342110,
+		"name": "Dimensional Prisson",
+		"banner": "Siwei"
 	}
 ]
